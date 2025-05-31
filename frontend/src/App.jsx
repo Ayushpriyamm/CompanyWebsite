@@ -1,11 +1,19 @@
 import React from 'react'
+import { Navbar } from './components/Navbar'
+import { Button } from '@heroui/react'
+import { Header } from './components/Header'
+import { HeroSection } from './components/HeroSection'
+import { Features } from './components/Features'
 
 function App() {
   
 
   return (
     <>
-      <h1 className='text-red-500 text-center font-bold'>Pritech Solutions</h1>
+      
+      <Header/>
+      <HeroSection/>
+      <Features/>
     </>
   )
 }
